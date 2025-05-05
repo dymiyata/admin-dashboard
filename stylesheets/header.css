@@ -1,3 +1,122 @@
 .header {
-    background-color: lightblue;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+
+.header-top {
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icon {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header svg {
+    height: 24px;
+    fill: 010101;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.searchbar>input {
+    border-radius: 50px;
+    border: none;
+    background-color: #e2e8f0;
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 75%;
+
+}
+
+.account-info {
+    display: flex;
+    flex-directin: row;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.profile-pic {
+    height: 45px;
+    width: 45px;
+    background-color: #facc15;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.profile-pic>img {
+    height: 30px;
+    width: 30px;
+    background-color: #facc15;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-bottom {
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-bottom .profile-pic {
+    height: 72px;
+    width: 72px;
+    background-color: #facc15;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header-bottom img {
+    height: 50px;
+    width: 50px;
+    background-color: #facc15;
+}
+
+.greeting p:first-of-type {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.greeting p:last-of-type {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header-bottom button {
+    border: none;
+    border-radius: 30px;
+    background-color: #1992d4;
+    color: #ffffff;
+    width: 85px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 15px;
 }

@@ -7,6 +7,6 @@ body {
     font-family: 'Roboto', 'Arial', sans-serif;
     display: grid;
     grid-template-columns: 290px 1fr;
-    grid-template-rows: 200px 1fr;
+    grid-template-rows: 180px 1fr;
     height: 100vh;
 }
