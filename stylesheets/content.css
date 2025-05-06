@@ -1,3 +1,110 @@
 .content {
     background-color: #e2e8f0;
+    display: flex;
+    flex-direction: row;
+    padding: 25px
+}
+
+.projects {
+    flex: 1;
+}
+
+.content-header {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    height: 150px;
+    border-left: solid 7px #f0b429;
+    border-radius: 8px;
+    padding: 25px;
+    position: relative;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-description {
+    font-size: 15px;
+    color: #747474;
+}
+
+.card-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.content svg {
+    height: 20px;
+    margin-right: 15px;
+}
+
+.content-side {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.content-side-card {
+    background-color: white;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 30px
+}
+
+.announcement {
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.announcement:not(:last-of-type) {
+    border-bottom: 1px solid lightgray;
+}
+
+.announcement-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.announcement-description {
+    font-size: 12px;
+    color: #747474;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+    margin: 15px 5px;
+}
+
+.user-tag {
+    font-size: 13px;
+    align-self: end;
+}
+
+.user-project {
+    font-size: 13px;
+    color: #747474;
+    align-self: start;
+}
+
+.user>.profile-pic {
+    grid-row: 1 / 3;
 }
